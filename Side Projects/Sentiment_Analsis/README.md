@@ -2,8 +2,11 @@
 Public opinion on Twitter about US airlines in 2015
 
 Author: Mohammed Ba Salem 
+
 Contact: basaleemm@gmail.com
+
 LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
+
 ## Purpose
 The objective of this project is to compute the sentiment of text information (Tweets) by answering the question **What can public opinion in Twitter tell us about US airlines service in 2015**. Doing so, an analytical insights  will be provided in order to help airlines adopt new business strategist by addressing aspects with low satisfactions. 
 ## Datasets
@@ -42,12 +45,13 @@ The simple procedure was designed to identify the airline of a given tweet and a
 	- Negative reviews for **US Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 	- Negative reviews for **American Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 
-![alt text](https://github.com/danishanis/Target_Marketing_Campaign/blob/master/Images/logreg.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Sentiment_Analsis/images/Airlines_Negative_Tweets.PNG)
 
 - A word cloud to visualize the collection of negative and positive words is generated: 
 	- From US airlines positive word cloud, it can observed that the word like **"Southwest air",** and  **"jetblue"** have the highest frequency for positive tweets, along with it we can see words like *"best"*, *"amazing"*, *"good customer service"*, *"great",* *"love",* *"nice"*, and *"happy"* etc. 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Sentiment_Analsis/images/Positive_Word_Cloud.png)
+
 
 	- From the US negative word cloud, it can observed that the word like **"americanairlines"**, **"unitedairline"**, **"usaairways"** are the biggest words appeared which indicates more negative responses associated with that airline tweets.However, **"virginamerica"** has the smallest word appeared relative to other airlines words, this indicates that public can expect **Vigine Airlines** as a good airline compared to others. Along with that, we can also see some negative words such as *"cancelled flight"*, *"delayed"*,*"help"*,*"canceled flight"*,*"booking problems"*, *"late flight"* and etc. 
 
