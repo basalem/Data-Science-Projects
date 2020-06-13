@@ -54,7 +54,7 @@ To explore the feature importance, a regression technique (Ridge Regression Mode
 
 As less important features usually result in instability in estimating the coefficient of regression model, a feature selection performed to reduce computation time and to give good predictive results. **R-square** score is used as **measurement metrics**. 200 out of 607 features are selected to do model implementation.  
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Feature Selection.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Feature_Selection.PNG)
 
 ### Model Implementation 
  4 different regression algorithms (baselines) with 10 fold cross validation are implemented. Algorithms used are *Lasso Regressor*, *Ridge Regressor*, *RandomForest Regressor* and *DecisionTree Regressor*.  The following statistical metrics are used: 
