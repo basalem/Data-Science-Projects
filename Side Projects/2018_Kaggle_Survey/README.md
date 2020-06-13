@@ -40,7 +40,8 @@ Survey data has to be organized into a more structured look and amenable. This p
 	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Top10_Salary.png)
 	
 - Kaggle Community Continent Distribution. 
-	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Continent.PNG)
+
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Continent.PNG)
 	
 - Level of Education vs Average Annual Compensation in Kaggle Community of Data Science. 
 	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/2018_Kaggle_Survey/images/Education.png)
