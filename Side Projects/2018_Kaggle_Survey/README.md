@@ -13,18 +13,19 @@ The purpose of this challenge was to *tell a data story about a subset of the da
 The data, as given is in a form of survey which originally contains 15430 rows and 397 columns. Those columns are in a form of questions. In addition, some questions contain multiple choice questions separated in different columns. To preserve the respondent privacy, Kaggle team modified the data and a lot of text has been shuffled. The format of data is combination of numeric and categorical one! 
 
 Here are some important features or labelled columns: 
-**Duration**: Time taken to complete survey
-**Q1**: Gender
-**Q2**: Age Class 
-**Q3**: Country
-**Q4**: Highest Level of Education 
-**Q5**: Undergraduate Major 
-**Q6**: Role Title (Job Title)
-**Q7**: Industry 
-**Q8**: Years of Work Experience 
-**Q9**: Annual Salary (**Target Variable**)
+- **Duration**: Time taken to complete survey
+- **Q1**: Gender
+- **Q2**: Age Class 
+- **Q3**: Country
+- **Q4**: Highest Level of Education 
+- **Q5**: Undergraduate Major 
+- **Q6**: Role Title (Job Title)
+- **Q7**: Industry 
+- **Q8**: Years of Work Experience 
+- **Q9**: Annual Salary (**Target Variable**)
 ## Libraries 
 **Python Version**: 3.7.6
+
 **Packages**:  pandas, numpy, sklearn,re, matplotlib, seaborn, worldcloud. 
 ## Methodology 
 ### Data Cleaning 
