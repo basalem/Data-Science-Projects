@@ -1,5 +1,5 @@
 
-# Predicting Customer Chrun
+# Predicting Customer Churn
 Author: Mohammed Ba Salem 
 
 Contact: basaleemm@gmail.com
