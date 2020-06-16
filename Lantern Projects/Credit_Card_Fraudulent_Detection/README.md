@@ -12,7 +12,7 @@ The purpose of this project is to build a classification machine learning model 
 ## Dataset 
 The dataset contains records for transactions made by European cardholders in September 2013. The history for those transactions goes back for two days records where we have 492 frauds out of 284,807 transactions. The fraud class accounts for 0.17% of all transactions, highly unbalanced! 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Class_Distribution.PNG) 
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Class_Distribution.PNG) 
 
 Here are some information about dataset: 
 - All inputs are in form of numerical values. 
@@ -33,7 +33,7 @@ No data pre-processing or cleaning is needed here, data as given clean, transfor
 - The fraud transactions have a mean of 122.2, maximum of 2,125.87 and minimum of 0. 
 - The majority of normal transaction amounts are between $0 and $4,000. 
 		
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Normal_Distribtion.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Normal_Distribtion.PNG)
 
 - The majority of fraud transaction amounts are between $0 and $200. Based on my knowledge, I can explain this as current existed ML model classify ''Tap or Contactless" transaction that exceeds allowed amount (specified by the bank) as **Fraud**. However, I can not make a solid conclusion or feature engineering based on this insight for the following reasons: 
 		- Limited amount of contactless transaction are not declared in the data. 
@@ -41,7 +41,7 @@ No data pre-processing or cleaning is needed here, data as given clean, transfor
 		- The credit card data is not for a single user! It is for multiple people so I can't create any features that 			represent the trend in the transactions. 
 		- Interestingly, majority of fraud transactions are lower than $10, in fact, most of the transactions are between **$0 and $1**. This indicates **[One Dollar Scam!](https://www.creditcards.com/credit-card-news/1-dollar-credit-card-scam-1282/)**
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Fraud_Distribution.PNG)	
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Fraud_Distribution.PNG)	
 
 - Both type of transactions are positively skewed (tail pulls mean to right of median). 
 
@@ -51,7 +51,7 @@ No data pre-processing or cleaning is needed here, data as given clean, transfor
 - Time elapsed for normal transaction has a consistent trend over the 2 days. It has a peak around 11:00 am till 7:00 pm. In other words, high density can be observed during working hours, and a fall at beginning and end of the day. 
 - The density of time elapsed for fraud transactions is almost high for all intervals during 2 days. In other words, they are active all the time!
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Transaction_Time.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Transaction_Time.PNG)
 
 
 #### Correlation and Feature Importance
@@ -59,9 +59,9 @@ No data pre-processing or cleaning is needed here, data as given clean, transfor
 
 - Unfortunately, we can't do any feature importance or selection due to the fact that all provided features were transformed by PCA, and features are invariant to scale.  
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/All_Correlation.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/All_Correlation.PNG)
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Fraud_Correlation.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Fraud_Correlation.PNG)
 
 ### Model Implementation 
  2 different classification algorithms are implemented. Algorithms used are *Logistic Regression* and *RandomForest Classifier* . As the data is highly imbalance, it is necessary to select proper metrics that can return a meaningful accuracy for unbalance classification. Recall, Precision (Confusion Matrix) and Area under Precision-Recall Curve (AUPRC) are select to determine best classifier. 
@@ -70,20 +70,20 @@ To make this implementation more interesting, I aim to evaluate models performan
 
 - Classification on Original Data.
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment1.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment1.png)
 
 - Classification with Under-Sampling Majority.
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment2.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment2.png)
 
 - Classification with Over-Sampling (SMOTE) Data Minority.
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment3.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment3.png)
 
 - Classification with Combination of Over-Sampling & Under-Sampling. 
 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Side%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment4.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Experiment4.png)
 
 From above metrics, it is clearly seen that both *Ridge* and *Lasso* outperform other models. A next step is to perform hyperparameter  tuning on 4 models.   
 ### Results 
