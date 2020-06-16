@@ -12,7 +12,9 @@ The purpose of this project is to build a classification machine learning model 
 ## Dataset 
 The dataset contains records for transactions made by European cardholders in September 2013. The history for those transactions goes back for two days records where we have 492 frauds out of 284,807 transactions. The fraud class accounts for 0.17% of all transactions, highly unbalanced! 
 
+
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Lantern%20Projects/Credit_Card_Fraudulent_Detection/images/Class_Distribution.PNG) 
+
 
 Here are some information about dataset: 
 - All inputs are in form of numerical values. 
