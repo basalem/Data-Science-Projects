@@ -1,5 +1,7 @@
 # Time Series Prediction in Spark: 
 Predicting Apple Stock Price 
+
+
 Author: Mohammed Ba Salem 
 
 Contact: basaleemm@gmail.com
@@ -64,22 +66,35 @@ The fact that the SMAPE score for linear regression shows promising outcomes, it
 
 **Random Forest wins here!**
  
-1 Day price forecasting:
+1 Day price predicting:
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Predicting_Apple_Stocks_with_Pyspark_ML/images/1Day_RF.PNG)
 
-5 Days price forecasting: 
+5 Days price predicting: 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Predicting_Apple_Stocks_with_Pyspark_ML/images/5Days_RF.PNG)
 
-10 Days price forecasting: 
+10 Days price predicting: 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Predicting_Apple_Stocks_with_Pyspark_ML/images/10Days_RF.PNG)
 
-21 Days price forecasting: 
+21 Days price predicting: 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Predicting_Apple_Stocks_with_Pyspark_ML/images/21Days_RF.PNG)
 
-63 Days price forecasting: 
+63 Days price predicting: 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Predicting_Apple_Stocks_with_Pyspark_ML/images/63Days_RF.PNG)
+
+## Challenges 
+
+1. Poor data visualization libraries, and limitation of RDD in spark to show the first 1000 rows to plot. We have to convert some data into Pandas in order to get a good plots, however, this results in having a lot of code cells.
+
+2. Lack of APIs and libraries in pyspark, specifically for time series CrossValidation split.
+
+3. Community edition in Databriacks limits computation resources, many times I got my cluster terminated and sometimes they log me off while working.
+
+ 4. Spark still has does not have a large community or users, thus there was not enough community resource support explaining a certain error.
+
+
+**Please check above Jupyter Notebook for more details. For interactive DataBricks cloud pySpark notebook, click [HERE](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7052157552859543/916867181931954/4143425856907931/latest.html)**
