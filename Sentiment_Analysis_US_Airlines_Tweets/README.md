@@ -6,7 +6,7 @@ Author: Mohammed Ba Salem
 
 Contact: basaleemm@gmail.com
 
-LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
+LinkedIn: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 ## Purpose
 The objective of this project is to compute the sentiment of text information (Tweets) by answering the question **What can public opinion in Twitter tell us about US airlines service in 2015**. Doing so, an analytical insights  will be provided in order to help airlines adopt new business strategist by addressing aspects with low satisfactions. 

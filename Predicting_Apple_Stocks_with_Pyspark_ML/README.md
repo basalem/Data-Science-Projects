@@ -6,15 +6,15 @@ Author: Mohammed Ba Salem
 
 Contact: basaleemm@gmail.com
 
-LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
+LinkedIn: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 ## Project Overview 
- This project utilized Machine Learning approaches in big data environment to construct models that can predict Apple stock adjusted close price as a form of time series data points. Various models are implemented and tuned, namely,Linear Regression, Random Forest, Decision Trees and Gradient Boosting Regressor. Moreover, the overall performance of all models was improved by adding market features and normalized the data. To compare different performance of every model, [Symmetric Mean Absolute Percentage Error](https://en.wikipedia.org/wiki/Symmetric_mean_absolute_percentage_error#:~:text=where%20At%20is%20the,the%20forecast%20value%20Ft.&text=Over-forecasting:%20At%20=,=%20110%20give%20SMAPE%20=%204.76%25) is used as evaluation metric.  
+ This project utilized Machine Learning approaches in big data environment to construct models that can predict Apple stock adjusted close price as a form of time series data points. Various models are implemented and tuned, namely,Linear Regression, Random Forest, Decision Trees and Gradient Boosting Regressor. Moreover, the overall performance of all models was improved by adding market features and normalized the data. To compare different performance of every model, [Symmetric Mean Absolute Percentage Error](https://en.wikipedia.org/wiki/Symmetric_mean_absolute_percentage_error#:~:text=where%20At%20is%20the,the%20forecast%20value%20Ft.&text=Over-forecasting:%20At%20=,=%20110%20give%20SMAPE%20=%204.76%25) was used as evaluation metric.  
 ## Business Problem
 The project aims to experiment time series analysis to forecast the adjusted close price at different time horizons (business days only) **daily** (1 day price) prediction, **weekly** price prediction (5 days), **bi-weekly** price prediction (10 days) , **monthly** price prediction (21 days) and **quarterly** price prediction (63 days). The data used is for 21 years (1997-2018), this will help ML model to learn and generalized. 
 
 
-The assumption used to forecast stock price inherited from the stochastic model that tomorrow price is more likely to be that of yesterday plus an error (random noise). In other words, stock prices that are close together in time will be more closely related than prices that are further apart. This will help financial analysts and investors to develop a trading strategy to take a position in stock market by selling or buying.  
+The assumption used to forecast stock price inherited from the stochastic model that tomorrow price is more likely to be that of yesterday plus an error (random noise). In other words, stock prices that are close together in time will be more closely related than prices that are further apart. **This will help financial analysts and investors to develop a trading strategy to take a position in stock market by selling or buying**.  
 
 
 The following project is developed in DataBrick Paltform by using ApacheSpark-Pyspark. A more interactive notebook can be found **[HERE](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/7052157552859543/916867181931954/4143425856907931/latest.html)**. 

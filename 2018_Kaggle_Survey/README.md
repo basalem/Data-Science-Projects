@@ -4,7 +4,7 @@ Author: Mohammed Ba Salem
 
 Contact: basaleemm@gmail.com
 
-LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
+LinkedIn: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 ## Purpose 
 The purpose of this challenge was to *tell a data story about a subset of the data science community represented in this survey, through a combination of both narrative text and data exploration.* 

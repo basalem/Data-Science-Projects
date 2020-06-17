@@ -4,7 +4,7 @@ Author: Mohammed Ba Salem
 
 Contact: basaleemm@gmail.com
 
-LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
+LinkedIn: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 ## Purpose 
 The purpose of this project is to build a classification machine learning model able to classify highly unbalance subset of credit card data into a normal or fraud transaction.  
