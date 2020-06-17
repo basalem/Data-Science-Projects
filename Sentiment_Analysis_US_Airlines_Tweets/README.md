@@ -13,11 +13,11 @@ The objective of this project is to compute the sentiment of text information (T
 ## Datasets
 Two datasets are used for this project.  The generic_tweets.txt file contains tweets that have had their sentiments already analyzed and recorded as binary values 0 (negative) and 4 (positive). Each line is a single tweet, which may contain multiple sentences despite their brevity. This data aimed to be used as training data as classes are balanced. It has 200,000 rows and 6 columns.
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Generic_Tweets_Classes.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Generic_Tweets_Classes.PNG)
 
 The second data set, US_airline_tweets.txt, contains a list of tweets regarding several US airlines. This file is used as a testing data. It has 11,541 rows and 6 columns. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/US_Tweets_Classes.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/US_Tweets_Classes.PNG)
 
 ## Approach
 ### Data Cleaning with Natural Language Toolkit (NLTK) & Regular Expression 
@@ -35,7 +35,7 @@ Data, as given, is not in a form amenable to analysis. A lot of noise exist, thu
 ### Exploratory Data Analysis 
 The simple procedure was designed to identify the airline of a given tweet and apply the procedure to all the tweets in the datasets. A a good approach was to look at words+hashtags in the tweets, and map it to an airline dictionary to obtain airline name. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Negative_Reasons_Distribution.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Negative_Reasons_Distribution.PNG)
 
 - Public sentiments about US airlines are visualized in a form of bar chart to draw some conclusion on given services.
 	- The distribution of negative tweets among the various reasons is not uniform, with majority of them being for **Customer Service Issue** , **Late Flight** and hardly for **Damaged Luggage**. 
@@ -46,7 +46,7 @@ The simple procedure was designed to identify the airline of a given tweet and a
 	- Negative reviews for **US Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 	- Negative reviews for **American Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Airlines_Negative_Tweets.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Airlines_Negative_Tweets.PNG)
 
 - A word cloud to visualize the collection of negative and positive words is generated: 
 
@@ -56,7 +56,7 @@ The simple procedure was designed to identify the airline of a given tweet and a
 
 	- From below US negative word cloud, it can observed that the word like **"americanairlines"**, **"unitedairline"**, **"usaairways"** are the biggest words appeared which indicates more negative responses associated with that airline tweets.However, **"virginamerica"** has the smallest word appeared relative to other airlines words, this indicates that public can expect **Vigine Airlines** as a good airline compared to others. Along with that, we can also see some negative words such as *"cancelled flight"*, *"delayed"*,*"help"*,*"canceled flight"*,*"booking problems"*, *"late flight"* and etc. 
 
-	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Negative_Word_Cloud.png)
+	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Negative_Word_Cloud.png)
 
 
 - From distribution of Tweets via Airline we can observe the following: 
@@ -64,7 +64,7 @@ The simple procedure was designed to identify the airline of a given tweet and a
 	- The other airlines **Virgin America, SouthWest and JetBlue** are having a low negative tweets, this could indicate that they provide a good services compared to **United Airlines, US Airways and American Airlines**, however, it is still needed to be improved. 
 	- Regarding **Delta Assist**, as shown below, it has only two negative tweets and zero positive tweets. I would say that data given to us lack information about Delta Assist airline, therefore, no conclusion can be made, I might take it out from Modeling preparation step. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Distribution_Tweets_per_Airlines.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Distribution_Tweets_per_Airlines.PNG)
 
 ### Model Preparation
 Generic tweets are used for training and developing the model, thus, a random split of 70% for training data and 30% for test data is performed. This data is prepared for Naive Bayes Classifier **BernoulliNB** and **Logistic Regression** Classifier where each tweet is considered a single observation. In both classifiers, the output is a sentiment value of of 0 or 1 aka negative or positive . The features are tweets / reviews input as text data. 
@@ -74,23 +74,23 @@ The frequency of each work is used as extracted features for model (CounterVecto
 ### Model Implementation  
 Two classifiers are trained on the generic tweets training data and applied on the test data to obtain the following accuracy values. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Combined_Generic_Tweets_Model_Results.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Combined_Generic_Tweets_Model_Results.png)
 
 - From above report for both models Bernoulli and LogRe, we can see that we have almost a balance F1 score, that means we have equal positive and negative in training data from Generic tweets and this is confirms from above plots of positive and negative for generic plots.73% accuracy for BN mode and 74% accuracy for LogR. LogR seems good so far for tweets by using a low level of NLP. 
 
 The same models are later evaluated on the US airline data. To obtain the following accuracy values. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/USA_Tweets_Model_Results.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/USA_Tweets_Model_Results.png)
 
  - BernoulliNB model gives us an accuracy of 77.2%, while LogRe gives an accuracy of 74.7%..The F1 score of positive (0.52) and negative (0.85) is not balanced. That is because data provided to us is skewed into negative.
  
 As Bernoulli Model gives us the highest accuracy score, we will use Bernoulli model to predict US airlines sentiments below. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/BN_US_Final.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/BN_US_Final.PNG)
 
 Finally the negative reasons of US airlines data (70% training data and 30% test data) are used to train a multiclass logistic regression. The model is trained to predict negative reasons. In this data, there are 10 negative reasons as we have seen them above in the EDA.  
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Negative_Reasons_Multi.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Negative_Reasons_Multi.PNG)
 
 ## Results 
 From above EDA, we can see that people have experienced a lot of unsatisfied services during a flight. We count the different positive and negative tweets made by every US airlines. As per the predictions on the US negative reasons, **customer service issue** still has the highest negative reason. This is due to the fact that number of negative reasons is imbalance, and inclined towards Customer Service Issue category. The predicted percentage of each negative reasons category are as follow: Customer Service Issue 46.1%, Can't tell 17.2%, Late Flight 14.3%, Lost Luggage 6.8%, Cancelled Flight 5.2%, Flight Attendant Complaints 3.8%, Bad Flight 3.8%, Flight Booking Problems 2.5% and Longlines 0.19%. Therefore, as per the prediction, Customer Service has to be improved by airlines, they may train their employee to provide a more satisfied customer experience that meet their expectations. 
