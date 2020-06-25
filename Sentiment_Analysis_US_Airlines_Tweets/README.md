@@ -46,10 +46,11 @@ The simple procedure was designed to identify the airline of a given tweet and a
 	- Negative reviews for **US Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 	- Negative reviews for **American Airways** are more associated with *Customer Service Issue*, *Late Flight*,*Cancelled Flight* and hardly for *Damaged Luggage*. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Airlines_Negative_Tweets.PNG)
+
 
 - A word cloud to visualize the collection of negative and positive words is generated: 
 
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Airlines_Negative_Tweets.PNG)
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Positive_Word_Cloud.png)
 
