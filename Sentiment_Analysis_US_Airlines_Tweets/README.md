@@ -52,7 +52,7 @@ The simple procedure was designed to identify the airline of a given tweet and a
 - A word cloud to visualize the collection of negative and positive words is generated: 
 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Positive_Word_Cloud.png)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Positive_Word_Cloud.png)
 
 
 
