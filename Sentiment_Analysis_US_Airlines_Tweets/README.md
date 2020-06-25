@@ -33,6 +33,7 @@ Data, as given, is not in a form amenable to analysis. A lot of noise exist, thu
 - If a tweet is empty after pre-processing, it should be preserved as such.
 
 ### Exploratory Data Analysis 
+
 The simple procedure was designed to identify the airline of a given tweet and apply the procedure to all the tweets in the datasets. A a good approach was to look at words+hashtags in the tweets, and map it to an airline dictionary to obtain airline name. 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Negative_Reasons_Distribution.PNG)
@@ -50,7 +51,9 @@ The simple procedure was designed to identify the airline of a given tweet and a
 
 - A word cloud to visualize the collection of negative and positive words is generated: 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Airlines_Negative_Tweets.PNG)
+
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analysis_US_Airlines_Tweets/images/Negative_Word_Cloud.png)
+
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Positive_Word_Cloud.png)
 
