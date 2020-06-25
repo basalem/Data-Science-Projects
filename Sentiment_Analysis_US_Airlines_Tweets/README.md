@@ -51,6 +51,8 @@ The simple procedure was designed to identify the airline of a given tweet and a
 - A word cloud to visualize the collection of negative and positive words is generated: 
 
 	![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Sentiment_Analsis/images/Positive_Word_Cloud.png)
+
+
 	- From above US airlines positive word cloud, it can observed that the word like **"Southwest air",** and  **"jetblue"** have the highest frequency for positive tweets, along with it we can see words like *"best"*, *"amazing"*, *"good customer service"*, *"great",* *"love",* *"nice"*, and *"happy"* etc. 
 
 
