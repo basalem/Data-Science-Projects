@@ -38,11 +38,15 @@ The dataset contains website visitors information and their view of ads. It has 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/Class_Distribution.PNG) 
 
 ## Libraries 
+
 **Python Version**: 3.7.6
+
 **Jupyter Notebook**: 6.0.3
+
 **Packages**:  pandas, numpy, datetime, calendar, ppscore, scipy, sklearn, xgboost, matplotlib, seaborn.
  
 ## Methodology 
+
 ### Clean and Explorer Data 
 It is always important to ensure that we have a good quality and representative data to give it the meaning it deserves through EDA, feature engineering and ML modeling. Some pre-processing is needed to perform:
 
@@ -97,12 +101,20 @@ It is always said gold in gold out, that is feeding your ML model with clean, go
 ## Model Selection 
  4 different classification algorithms including a baseline mode are trained to predict who will click and who will not click on the ads. Algorithms used are *Naive Bayes(Baseline)*, *Logistic Regression* ,*Random Forest Classifier* and *XgBoost* . As the data is highly balance, it is necessary to select multiple metrics that can return a meaningful accuracy and compare results. AUPRC, AUC, F1-Score, Accuracy and F-Beta are select to determine best classifier. 
 
+**Baseline and Logistic Regression Models**
+
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/BS_LR.png)
+
+**Random Forest and XgBoost Models**
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/RF_XG.png)
 
 
-From above metrics, it is clearly seen that all classifiers outperform the baseline model on both training sets as well as testing sets.
+From above metrics, it is clearly seen that: 
+
+- All classifiers do not suffer from overfitting or underfitting, that is there is a balance between bias and variance! 
+- Most of the 3 classifiers overperform the Baseline on both training and testing sets. 
+- From classification perspective, we can generate a lot of money from consumers who are not targeted by us, but they clicked on the add, **FP class,700CAD**. This can be explained as company is more likly popular or well know. 
 
 
 ## Results 
@@ -144,6 +156,9 @@ Logistic Regression predict **overall investiment return of $25,150 CAD** which 
 - Profit gain from False Positve $4,900 CAD 
 
 - Loss from False Negative  -$2,400 CAD 
+
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/LR_1.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/LR_2.PNG)
 
 ## Business Recommendation 
 The marketing team can maximize client's profit by collecting some information about customers, those features which are proved to be essential for machine learning classifier: 
