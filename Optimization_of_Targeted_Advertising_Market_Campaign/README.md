@@ -47,10 +47,10 @@ The dataset contains website visitors information and their view of ads. It has 
  
 ## Methodology 
 
-### Clean and Explorer Data 
+### Clean and Explore Data 
 It is always important to ensure that we have a good quality and representative data to give it the meaning it deserves through EDA, feature engineering and ML modeling. Some pre-processing is needed to perform:
 
-1. Explorer data features and observations. 
+1. Explore data features and observations. 
 2. Business logic validation in data. 
 3. Check missing values and duplicates. 
 
