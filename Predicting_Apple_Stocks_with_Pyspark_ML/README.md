@@ -48,7 +48,7 @@ Machine learning models are characterized by their high robust and powerful comp
 ### Model Comparison 
 Performing time series analysis means that implementing regression model. For that, there are a lot of regression evaluation metrics such as MSE, RMSE MAE, R2 and SMAPE. For this project in all models, SMAPE metric was chosen as criteria to judge.
 
-All the 4 machine learning models were trained with 9 features where some of them were engineered and others were imported into the data. As can be seen from figure 8, most of the models have close SMAPE values, however, there are some models outperformed others. 
+All the 4 machine learning models were trained with 9 features where some of them were engineered and others were imported into the data. As can be seen from below figure, most of the models have close SMAPE values, however, there are some models outperformed others. 
 - 1Day, 5 Days and 10 Days price forecasting: Linear Regression outperform other models. 
 -  21 Days and 63 Days price forecasting: Trees outperform Linear Regression. 
 - 21 Days price forecasting: Random Forest out perform Decision Tree and Gradient Boosting.   
@@ -88,7 +88,7 @@ The fact that the SMAPE score for linear regression shows promising outcomes, it
 
 ## Challenges 
 
-1. Poor data visualization libraries, and limitation of RDD in spark to show the first 1000 rows to plot. We have to convert some data into Pandas in order to get a good plots, however, this results in having a lot of code cells.
+1. Poor data visualization libraries, and limitation of RDD in spark to show the first 1000 rows to plot. I have to convert some data into Pandas in order to get a good plots, however, this results in having a lot of code cells.
 
 2. Lack of APIs and libraries in pyspark, specifically for time series CrossValidation split.
 
