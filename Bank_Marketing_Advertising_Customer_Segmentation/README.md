@@ -69,15 +69,15 @@ In this approach, we use PCA to reduce dimensions to find optimal number of comp
 
 1. Dimensionality Reduction with PCA. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/PCA.PNG) 
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/PCA.PNG) 
 
 2. K-Means clustering by using PCA components. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/PCAKMeans_NumClusters.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/PCAKMeans_NumClusters.PNG)
 
 3. 2D PCA plot to visualize clusters. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/PCA&KMeans_Cluster.PNG) 
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/PCA&KMeans_Cluster.PNG) 
 
 
 ## Auto Encoders -KMeans Clustering Approach 
@@ -93,7 +93,7 @@ After reconstructing original data in less shape (Reduce Dimensions), we will us
 
 3. 2D PCA plot to visualize clusters. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/AutoEncoder&KMeans_Cluster.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/AutoEncoder&KMeans_Cluster.PNG)
 
 # Comparing Results
 The purpose of this section is to explorer characteristic of each cluster obtained from the above 2 techniques. In addition, comparing similar clusters characteristics from PCA and AutoEncoders. Doing so, it will help us understand dimensionality reduction quality and its impact on KMeans algorithm.
@@ -102,7 +102,7 @@ The purpose of this section is to explorer characteristic of each cluster obtain
 
 **Summary Heat Map**
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/Clusters_Summary.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/Clusters_Summary.PNG)
 
 # Conclusion
 
