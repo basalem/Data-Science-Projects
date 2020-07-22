@@ -69,7 +69,7 @@ In this approach, we use PCA to reduce dimensions to find optimal number of comp
 
 1. Dimensionality Reduction with PCA. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/PCA.PNG) 
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/PCA.png) 
 
 2. K-Means clustering by using PCA components. 
 
@@ -89,7 +89,7 @@ After reconstructing original data in less shape (Reduce Dimensions), we will us
 
 2. K-Means clustering by using Reconstructed data from AutoEncoder. 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Customer_Segmentation/Images/AutoEncoderKMeans_NumClusters.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Bank_Marketing_Advertising_Customer_Segmentation/Images/AutoEncoderKMeans_NumClusters.PNG)
 
 3. 2D PCA plot to visualize clusters. 
 
