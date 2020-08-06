@@ -7,7 +7,7 @@ Contact: basaleemm@gmail.com
 LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 # Business Problem
-Sales department wants to develop a promotion plan to increase their daily sales and skyrocket their growth. The department wants to use historical data for past years sales to predict future daily sales using ML Facebook prophet model. 
+Sales department wants to develop a  sales & promotion plan to increase their daily sales and skyrocket their growth. The department wants to use historical data for past years sales to predict future daily sales using ML Facebook prophet model which it lays out the tactics the sales department will use to achieve their goals! 
 
 In this project, we attempt to forecast future sales based on 2.5 years historical records for 1115 stores while taking into account seasonality effects, demands, holidays.  
 
