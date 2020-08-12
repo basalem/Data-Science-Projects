@@ -7,7 +7,7 @@ Contact: basaleemm@gmail.com
 LinkedIN: [https://www.linkedin.com/in/mohammed-basalem/](https://www.linkedin.com/in/mohammed-basalem/)
 
 # Business Problem
-A marketing team at one of New York City Banks wants to launch a targeted ad marketing campaign by segmenting customers into potential groups based on given features in the data. In this project, I will leverage both data science and machine learning tools to perform market segmentation to assets marketing department to understand customers' spending habits develop customer oriented marketing strategies. 
+A marketing team at one of New York City Banks wants to launch a targeted ad marketing campaign by segmenting customers into potential groups based on given features in the data. In this project, I will leverage both data science and machine learning tools to perform market segmentation to assist marketing department with understanding customers' spending habits to develop customer oriented marketing strategies. 
 
 # Dataset-Background 
 The dataset contains records for credit card purchases transactions for NYC bank's customers. The history for those purchases records goes back for 6 months. The data contains 18 columns and 8950 rows where are all entries are numerical types except CUSTID which is in string format. 
@@ -148,7 +148,7 @@ I would recommend to target Group 3 population as those ones are having highest 
 
 For Group 1 & 2, I would say the almost follow same spending habits, only minor differences. However, Group 2 has the highest CASH in ADVANCE or short term load from credit card, therefore, if bank want to benefit from interest rate from money withdraw (As far as I recall, loan interest rate from credit card in NYC is between 19.99% - 24%), then target those group with purchase ads than Group 1. 
 
-Eventually, it is matter of trad off for bank. Does bank want cash money or load interest rate.More details are left for the marketing department team!  
+Eventually, it is matter of trad off for bank. Does bank want cash money or loan interest rate.More details are left for the marketing department team!  
 
 **If you read this summary and you would like to discuss further opportunities, please do not hesitate to reach out (my contact is at top of page)** 
 
