@@ -23,3 +23,5 @@ I will implement the following for the purpose of trying different ML model depl
 - Machine Learning model deployment in docker containers
 - Scaling model training to Amazon SageMaker
 - Model deployment and serving Amazon SageMaker
+
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Real_Time_Twitter_Sentiment_Analysis_on_AWS/images/Project_Initial_Workflow.PNG)
