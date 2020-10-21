@@ -141,7 +141,7 @@ As the business objective aims to predict how much profit the marketing team can
 
 **Final Summary Results:** 
 
-![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/Summary_Performance.PNG)
+![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/Summary_Performance_1.PNG)
 
 Considering test set which has a sample size of 301 customers, Logistic Regression classifier outperforms Baseline, Random Forest and Xgboost Classifier with following metrics: 
 
