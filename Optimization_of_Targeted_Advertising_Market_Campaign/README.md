@@ -16,7 +16,7 @@ For the following problem, no much details are given from the company. Thus, I h
 
 1. Client will spend **550 CAD** for a potenial customer. 
 2. **Overall Profit** from targeted customer who clicks on ad is **150 CAD**. 
-3. **Loss** from targeted customer who does not click on ad is **600 CAD**. 
+3. **Loss** from targeted customer who does not click on ad is **550 CAD**. 
 4. **Profit** from un-targeted customer who clicks on ad is **700 CAD**.
 5. Product is **un-known**.
 
@@ -134,7 +134,7 @@ As the business objective aims to predict how much profit the marketing team can
 
 
 
-- *False Negative* (**FN**): It means actual class is Not Clicked **(consumer did not clicked on Ads)** and incorrectly classified as **Clicked**. Then this type of category matched with defination of  **We target a consumer but the consumer did not clicke on ads,LOSSING MONEY 600 CAD**. 
+- *False Negative* (**FN**): It means actual class is Not Clicked **(consumer did not clicked on Ads)** and incorrectly classified as **Clicked**. Then this type of category matched with defination of  **We target a consumer but the consumer did not clicke on ads,LOSSING MONEY 550 CAD**. 
 
 
 - *True Negative* (**TN**): It means actual class is Not Clicked **(consumer did not clicked on Ads)** and correctly classified as **Not Clicked**. Then this type of category matched with defination of **We did not target a consumer and the consumer did not click on ads, NOT GAININ or LOSSING MONEY**. 
@@ -149,13 +149,13 @@ Considering test set which has a sample size of 301 customers, Logistic Regressi
 - Accuracy = 97% 
 - F-Beta Score = 97.97%
 
-Logistic Regression predict **overall investiment return of $25,150 CAD** which includes: 
+Logistic Regression predict **overall investiment return of $25,250 CAD** which includes: 
 
 - Profit gain from True Positive $21,450 CAD
 
 - Profit gain from False Positve $4,900 CAD 
 
-- Loss from False Negative  -$2,400 CAD 
+- Loss from False Negative  -$1,100 CAD 
 
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/LR_1.PNG)
 ![alt text](https://github.com/basalem/Data-Science-Projects/blob/master/Optimization_of_Targeted_Advertising_Market_Campaign/Images/LR_2.PNG)
